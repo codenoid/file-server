@@ -25,6 +25,10 @@ func serveFile(w http.ResponseWriter, r *http.Request) {
 	// handle error ?
 	file := make([]byte, 0)
 	for _, source := range conf.Sources {
+		if len(file) > 0 {
+			break
+		}
+
 		switch source.Type {
 		case "fs", "filesystem", "localfile", "disk":
 			file, _ = ReadFile(source.Source, identity)
