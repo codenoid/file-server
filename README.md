@@ -1,3 +1,5 @@
+<img align="right" width="100" height="100" src="https://github.com/codenoid/file-server/blob/master/logo.png?raw=true">
+
 # File Server
 
 Multi-source file server built for hyperscale cutting-edge era
@@ -46,3 +48,7 @@ $ file-server --help
 ```
 
 after the server are running, you can access localhost:8080/identity-or-file-name.jpg, then file-server will read one by one from source, will return 404 and empty body if file not found
+
+### Assets
+
+Project logo are taken from [http://clipart-library.com/clip-art/books-transparent-background-10.htm](http://clipart-library.com/clip-art/books-transparent-background-10.htm)
