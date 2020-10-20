@@ -47,7 +47,7 @@ $ file-server --help
     	path to config file (default "config.yml")
 ```
 
-after the server are running, you can access localhost:8080/identity-or-file-name.jpg, then file-server will read one by one from source, will return 404 and empty body if file not found
+**after the server are running**, you can access `http://localhost:8080/identity-or-file-name.jpg`, then file-server will read one by one from source, will return 404 and empty body if file not found
 
 ### Assets
 
