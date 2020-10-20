@@ -2,7 +2,7 @@
 
 # File Server
 
-Multi-source file server built for hyperscale cutting-edge era
+Multi-source file server, actually this is for my private use, i need to serve from 15TB+ files and google storage public url on single link
 
 ## Installation
 
