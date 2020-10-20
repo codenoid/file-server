@@ -11,13 +11,13 @@ We provide serveral installation method
 ### Using TJ's gobinaries.com
 
 ```sh
-curl -sf https://gobinaries.com/codenoid/file-server | sh
+curl -sf https://gobinaries.com/codenoid/file-server/cmd/file-server | sh
 ```
 
 ### Using Go
 
 ```sh
-go get github.com/codenoid/file-server
+go get github.com/codenoid/file-server/cmd/file-server
 ```
 
 ## Config Example
