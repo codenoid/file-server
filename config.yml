@@ -1,0 +1,7 @@
+identity_type: uri-segment
+identity_source: last
+
+sources:
+  -
+    type: fs
+    source: /var/app/master
