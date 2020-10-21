@@ -4,6 +4,9 @@
 
 Multi-source file server, actually this is for my private use, i need to serve from 15TB+ files and google storage public url on single link
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/codenoid/file-server)](https://goreportcard.com/report/github.com/codenoid/file-server)
+[![CodeFactor](https://www.codefactor.io/repository/github/codenoid/file-server/badge/master)](https://www.codefactor.io/repository/github/codenoid/file-server/overview/master)
+
 ## Installation
 
 We provide serveral installation method
