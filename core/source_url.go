@@ -22,10 +22,12 @@ func ReadURL(source, identity string) (val []byte, err error) {
 	}
 	defer resp.Body.Close()
 
-	b, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return val, err
+	if resp.StatusCode == 200 {
+		val, err = ioutil.ReadAll(resp.Body)
+		if err != nil {
+			return val, err
+		}
 	}
 
-	return b, nil
+	return val, nil
 }
